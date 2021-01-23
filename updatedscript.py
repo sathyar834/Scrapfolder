@@ -261,15 +261,17 @@ def create_scp_policy():
     if a == "scp_policy":
       with open('scp_policy.json') as f:
         data = json.load(f)
+        data1 = json.dumps(data, indent=4)
     elif a == "duplicatepolicy":
       with open('duplicatepolicy.json') as f:
         data = json.load(f)
+        data1 = json.dumps(data, indent=4)
     else:
       logger.exception('Invalid Document Name')
       return("Invalid Document Name")
     try:
       create_scp_response = client.create_policy(
-      Content= data,
+      Content= str(data1),
       Description= b,
       Name= c,
       Type='SERVICE_CONTROL_POLICY',

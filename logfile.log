@@ -28,3 +28,101 @@ INFO:updatedscript:RootId: r-oblp
     "aws-guardrails-WKptKO": "p-pn9eaoz0",
     "Test_SCP": "p-cimw1sfi"
 }
+2021-01-23 16:09:47,799:INFO:updatedscript:Listing the roots of the AWS account
+2021-01-23 16:09:49,617:INFO:updatedscript:RootId: r-oblp
+2021-01-23 16:11:35,895:INFO:updatedscript:Create Organizational Units
+2021-01-23 16:11:48,053:INFO:updatedscript:Organizational Units Created Succesfully
+2021-01-23 16:13:06,627:INFO:updatedscript:Listing the Organizational Units for the Respective Parent
+2021-01-23 16:13:08,287:INFO:updatedscript:The Organizational Units for the Respective Parent are : {
+    "uiorg": "ou-oblp-v77doqy7",
+    "updatedou": "ou-oblp-81bb4ev2",
+    "FinaltestOU2": "ou-oblp-t5inrbmb",
+    "Custom": "ou-oblp-mm9ncpf5",
+    "flaskOU": "ou-oblp-orfz456k",
+    "pyt4": "ou-oblp-t1ps2psp",
+    "Uiaccountou": "ou-oblp-kdj857ec",
+    "customui": "ou-oblp-85iuz6ej",
+    "checkoufinal": "ou-oblp-if66l6xl",
+    "API_Custom": "ou-oblp-hspfbmby",
+    "uitry1": "ou-oblp-wcn2wyqd",
+    "FinaltestOU": "ou-oblp-vav4uc7y",
+    "newindexOU": "ou-oblp-3bpx6cxw",
+    "API_Core": "ou-oblp-8eyq9ak1",
+    "Core": "ou-oblp-dby2fxer"
+}
+2021-01-23 16:13:44,465:INFO:updatedscript:Listing all the Accounts
+2021-01-23 16:13:45,195:INFO:updatedscript:List of Accounts : {
+    "pytSumit": "812140953942",
+    "abc1account": "316744330598",
+    "testapi2": "865615574130",
+    "VDMS": "959457434012",
+    "satyaaccount": "952838089727",
+    "Api1account": "249175382967",
+    "Api2account": "805607449710",
+    "Missionapp": "681744429061",
+    "Sathya R": "972530011371",
+    "Central": "932761296638",
+    "finalaccount6985": "312135302755",
+    "newuserdev01": "124366690439",
+    "pythonaccount": "640338191567",
+    "ApitestSatya": "505695001123",
+    "pytSumitsleep": "660588141457",
+    "VLG": "689020024752",
+    "checklastaccount": "759949070542",
+    "satya": "576029292242",
+    "Audit": "802926519859",
+    "fakedumy2account": "767321896527",
+    "pytSatya": "945239437978",
+    "dummy1": "527835484298",
+    "xyz1account": "210927249957",
+    "VDSS": "169731329154",
+    "Logging": "068597922674",
+    "Log archive": "738750764630",
+    "Sampleaccount2": "012680970011",
+    "fakedumy1account": "705047059868",
+    "pytSatyasleep": "387843785191",
+    "FinalcustomSatya": "308042207821",
+    "infra-dev": "323788643615",
+    "FinalcustomSumit": "105553713263",
+    "dumy1account": "796580307834",
+    "testapi1": "784725266810",
+    "ApitestSumit": "251202508777",
+    "Sampleaccount1": "715921394743"
+}
+2021-01-23 16:19:06,501:INFO:updatedscript:Moving Account from Source Parent to Destination Parent
+2021-01-23 16:19:08,097:INFO:updatedscript:The Account 640338191567 moved to ou-oblp-81bb4ev2 Successfully
+2021-01-23 16:31:44,165:INFO:updatedscript:Create SCP policy
+2021-01-23 16:31:46,164:INFO:updatedscript:SCP Policy created Successfully
+2021-01-23 16:33:42,051:INFO:updatedscript:Listing all the SCP policies of the AWS account
+2021-01-23 16:33:43,928:INFO:updatedscript:SCP Policies: {
+    "FullAWSAccess": "p-FullAWSAccess",
+    "aws-guardrails-VFUhZd": "p-q2a02sf3",
+    "CentralAccountSCP": "p-5u9i5eak",
+    "flaskscp3test": "p-9njznm1p",
+    "Deny Lambda for Sathya Account": "p-jqsvu76h",
+    "check1scppolicy": "p-ek3zkp3k",
+    "vscodeguardrail": "p-ar2zgzq0",
+    "LoggingAccountSCP": "p-9zu7pf7q",
+    "updatecodescp": "p-yu185bwm",
+    "dummyscpcustom": "p-19pubvdo",
+    "guardrail1": "p-rhl1ep2e",
+    "guardcheck": "p-x9hvnjbe",
+    "aws-guardrails-JSnQmo": "p-ipoj0jae",
+    "guardcheckstring": "p-i3x8djjv",
+    "flaskscp2test": "p-iaew1ydr",
+    "flaskscp1test": "p-6nfnwt3c",
+    "aws-guardrails-WKptKO": "p-pn9eaoz0",
+    "Test_SCP": "p-cimw1sfi"
+}
+2021-01-23 16:41:43,649:INFO:updatedscript:Attaching SCP policy
+2021-01-23 16:41:45,319:INFO:updatedscript:Policy attached Successfully
+2021-01-23 16:50:16,813:INFO:updatedscript:Attaching SCP policy
+2021-01-23 16:50:18,438:ERROR:updatedscript:Client Error!! An error occurred (InvalidInputException) when calling the AttachPolicy operation: You provided a value that does not match the required pattern.
+Traceback (most recent call last):
+  File "c:\Users\Sathya R\Desktop\AWS project\updatedscript.py", line 312, in attach_scp_policy
+    attachresponse = client.attach_policy(
+  File "C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\client.py", line 676, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.InvalidInputException: An error occurred (InvalidInputException) when calling the AttachPolicy operation: You provided a value that does not match the required pattern.

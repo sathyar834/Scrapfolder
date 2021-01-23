@@ -1,0 +1,46 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "Statement1",
+          "Effect": "Allow",
+          "Action": [
+              "s3:*"
+          ],
+          "Resource": [
+              "*"
+          ]
+      },
+      {
+          "Sid": "Statement2",
+          "Effect": "Allow",
+          "Action": [
+              "cloudwatch:*"
+          ],
+          "Resource": [
+              "*"
+          ]
+      },
+      {
+          "Sid": "Statement3",
+          "Effect": "Allow",
+          "Action": [
+              "cloudtrail:DescribeAlarmsForMetric",
+              "cloudtrail:*"
+          ],
+          "Resource": [
+              "*"
+          ]
+      },
+      {
+          "Sid": "Statement4",
+          "Effect": "Allow",
+          "Action": [
+              "config:*"
+          ],
+          "Resource": [
+              "*"
+          ]
+      }
+  ]
+}
