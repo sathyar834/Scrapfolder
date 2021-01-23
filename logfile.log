@@ -1,0 +1,30 @@
+INFO:updatedscript:Listing the roots of the AWS account
+INFO:updatedscript:RootId: r-oblp
+2021-01-23 13:20:24,659:INFO:updatedscript:Listing the roots of the AWS account
+2021-01-23 13:20:25,731:INFO:updatedscript:RootId: r-oblp
+2021-01-23 13:35:09,406:INFO:updatedscript:Listing all the SCP policies of the AWS account
+2021-01-23 13:35:12,445:INFO:updatedscript:SCP Policies: {'FullAWSAccess': 'p-FullAWSAccess', 'aws-guardrails-VFUhZd': 'p-q2a02sf3', 'CentralAccountSCP': 'p-5u9i5eak', 'flaskscp3test': 'p-9njznm1p', 'Deny Lambda for Sathya Account': 'p-jqsvu76h', 'check1scppolicy': 'p-ek3zkp3k', 'vscodeguardrail': 'p-ar2zgzq0', 'LoggingAccountSCP': 'p-9zu7pf7q', 'dummyscpcustom': 'p-19pubvdo', 'guardrail1': 'p-rhl1ep2e', 'guardcheck': 'p-x9hvnjbe', 'aws-guardrails-JSnQmo': 'p-ipoj0jae', 'guardcheckstring': 'p-i3x8djjv', 'flaskscp2test': 'p-iaew1ydr', 'flaskscp1test': 'p-6nfnwt3c', 'aws-guardrails-WKptKO': 'p-pn9eaoz0', 'Test_SCP': 'p-cimw1sfi'}
+2021-01-23 13:36:48,611:INFO:updatedscript:Listing all the SCP policies of the AWS account
+2021-01-23 13:36:50,230:INFO:updatedscript:SCP Policies: {"FullAWSAccess": "p-FullAWSAccess", "aws-guardrails-VFUhZd": "p-q2a02sf3", "CentralAccountSCP": "p-5u9i5eak", "flaskscp3test": "p-9njznm1p", "Deny Lambda for Sathya Account": "p-jqsvu76h", "check1scppolicy": "p-ek3zkp3k", "vscodeguardrail": "p-ar2zgzq0", "LoggingAccountSCP": "p-9zu7pf7q", "dummyscpcustom": "p-19pubvdo", "guardrail1": "p-rhl1ep2e", "guardcheck": "p-x9hvnjbe", "aws-guardrails-JSnQmo": "p-ipoj0jae", "guardcheckstring": "p-i3x8djjv", "flaskscp2test": "p-iaew1ydr", "flaskscp1test": "p-6nfnwt3c", "aws-guardrails-WKptKO": "p-pn9eaoz0", "Test_SCP": "p-cimw1sfi"}
+2021-01-23 13:44:22,776:INFO:updatedscript:Listing all the SCP policies of the AWS account
+2021-01-23 13:44:24,764:INFO:updatedscript:SCP Policies: {"FullAWSAccess": "p-FullAWSAccess", "aws-guardrails-VFUhZd": "p-q2a02sf3", "CentralAccountSCP": "p-5u9i5eak", "flaskscp3test": "p-9njznm1p", "Deny Lambda for Sathya Account": "p-jqsvu76h", "check1scppolicy": "p-ek3zkp3k", "vscodeguardrail": "p-ar2zgzq0", "LoggingAccountSCP": "p-9zu7pf7q", "dummyscpcustom": "p-19pubvdo", "guardrail1": "p-rhl1ep2e", "guardcheck": "p-x9hvnjbe", "aws-guardrails-JSnQmo": "p-ipoj0jae", "guardcheckstring": "p-i3x8djjv", "flaskscp2test": "p-iaew1ydr", "flaskscp1test": "p-6nfnwt3c", "aws-guardrails-WKptKO": "p-pn9eaoz0", "Test_SCP": "p-cimw1sfi"}
+2021-01-23 13:50:01,871:INFO:updatedscript:Listing all the SCP policies of the AWS account
+2021-01-23 13:50:04,007:INFO:updatedscript:SCP Policies: {
+    "FullAWSAccess": "p-FullAWSAccess",
+    "aws-guardrails-VFUhZd": "p-q2a02sf3",
+    "CentralAccountSCP": "p-5u9i5eak",
+    "flaskscp3test": "p-9njznm1p",
+    "Deny Lambda for Sathya Account": "p-jqsvu76h",
+    "check1scppolicy": "p-ek3zkp3k",
+    "vscodeguardrail": "p-ar2zgzq0",
+    "LoggingAccountSCP": "p-9zu7pf7q",
+    "dummyscpcustom": "p-19pubvdo",
+    "guardrail1": "p-rhl1ep2e",
+    "guardcheck": "p-x9hvnjbe",
+    "aws-guardrails-JSnQmo": "p-ipoj0jae",
+    "guardcheckstring": "p-i3x8djjv",
+    "flaskscp2test": "p-iaew1ydr",
+    "flaskscp1test": "p-6nfnwt3c",
+    "aws-guardrails-WKptKO": "p-pn9eaoz0",
+    "Test_SCP": "p-cimw1sfi"
+}
