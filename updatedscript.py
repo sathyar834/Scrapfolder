@@ -144,7 +144,7 @@ def list_accounts():
 
 
 def list_existing_email():
-  logger.info('Listing all the Accounts')
+  logger.info('Listing all the existing Emails from AWS Account')
   listresponse = client.list_accounts(
   )
 
@@ -174,9 +174,11 @@ def list_existing_email():
       break
 
   final_email_list = Emaillist + Emaillistmore
+  logger.info('List of Emails : %s',final_email_list)
   return final_email_list
 
 def create_account():
+  logger.info('Creating an account')
   Existing_emails = list_existing_email()
   global_variables_for_account()
   Length_of_Emails = len(list_of_Emails)
@@ -189,19 +191,27 @@ def create_account():
         if mailstatus == True:
           if mail == awsmail:
             status = "Invalid email"
+            logger.exception('The email already exist!')
             return("The email already exist!")
           else:
             status = "Valid email"
         else:
-          return("The email format is Invalid")
-      if status == "Valid email":
-        cresponse = client.create_account(
-          Email= mail,
-          AccountName= name,
-          IamUserAccessToBilling='ALLOW'
-        )
-        return("Account created successfully")
+          logger.exception('The email format is Invalid!')
+          return("The email format is Invalid!")
+      try:
+        if status == "Valid email":
+          cresponse = client.create_account(
+            Email= mail,
+            AccountName= name,
+            IamUserAccessToBilling='ALLOW'
+          )
+      except ClientError as e:
+        logger.exception('Client Error!! %s',e)
+        raise e
+    logger.info('Account created successfully')
+    return("Account created successfully")
   else:
+    logger.exception('Enter the respective names for the given Email!(The number of names and emails does not match')
     return("Enter the respective names for the given Email")
 
 def global_variables_for_moving_accounts():
@@ -230,17 +240,23 @@ def global_variables_to_attach_scp():
   SCP_TargetId = event["Enter the List of respective Account Ids for the Policies chosen"]
 
 def move_account():
+  logger.info('Moving Account from Source Parent to Destination Parent')
   global_variables_for_moving_accounts()
-  for a,b,c in zip(AccountId,SourceId,DestinationId):
-    Moveresponse = client.move_account(
-      AccountId= a,
-      SourceParentId= b,
-      DestinationParentId= c
-    )
+  try:
+    for a,b,c in zip(AccountId,SourceId,DestinationId):
+      Moveresponse = client.move_account(
+        AccountId= a,
+        SourceParentId= b,
+        DestinationParentId= c
+      )
+      logger.info('The Account %s moved to %s Successfully',a,c)
+  except ClientError as e:
+    logger.exception('Client Error!! %s',e)
+    raise e
 
 def create_scp_policy():
+  logger.info('Create SCP policy')
   global_variables_to_create_scp()
-
   for a,b,c in zip(Document_name,SCP_Description,SCP_Name):
     if a == "scp_policy":
       with open('scp_policy.json') as f:
@@ -249,13 +265,19 @@ def create_scp_policy():
       with open('duplicatepolicy.json') as f:
         data = json.load(f)
     else:
-      print("error occured")
-    create_scp_response = client.create_policy(
-    Content= data,
-    Description= b,
-    Name= c,
-    Type='SERVICE_CONTROL_POLICY',
-    )
+      logger.exception('Invalid Document Name')
+      return("Invalid Document Name")
+    try:
+      create_scp_response = client.create_policy(
+      Content= data,
+      Description= b,
+      Name= c,
+      Type='SERVICE_CONTROL_POLICY',
+      )
+      logger.info('SCP Policy created Successfully')
+    except ClientError as e:
+      logger.exception('Client Error!! %s',e)
+      raise e
 
 def list_scp_policy():
   logger.info('Listing all the SCP policies of the AWS account')
@@ -281,12 +303,18 @@ def list_scp_policy():
   return {"SCP Policies":scpdict}
 
 def attach_scp_policy():
+  logger.info('Attaching SCP policy')
   global_variables_to_attach_scp()
-  for x,y in zip(SCP_PolicyId,SCP_TargetId):
-    attachresponse = client.attach_policy(
-      PolicyId= x,
-      TargetId= y
-    )
-  print("policy attached")
+  try:
+    for x,y in zip(SCP_PolicyId,SCP_TargetId):
+      attachresponse = client.attach_policy(
+        PolicyId= x,
+        TargetId= y
+      )
+    logger.info("Policy attached Successfully")
+  except ClientError as e:
+    logger.exception('Client Error!! %s',e)
+    raise e
+
 
 
