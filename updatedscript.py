@@ -5,18 +5,19 @@ from botocore.exceptions import ClientError
 import re
 from flask import Flask,jsonify,request
 import logging
+import logging.config
 
 
-
+logging.config.fileConfig('C:/Users/Sathya R/Desktop/AWS project/config.ini', disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+# logger.setLevel(logging.INFO)
 
-formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
+# formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 
-file_handler = logging.FileHandler('logfile.log')
-file_handler.setFormatter(formatter)
+# file_handler = logging.FileHandler('logfile.log')
+# file_handler.setFormatter(formatter)
 
-logger.addHandler(file_handler)
+# logger.addHandler(file_handler)
 
 
 client = boto3.client('organizations')

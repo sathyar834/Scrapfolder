@@ -1,0 +1,530 @@
+2021-01-24 13:27:52,907 botocore.hooks - DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-01-24 13:27:52,910 botocore.hooks - DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2021-01-24 13:27:52,911 botocore.hooks - DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-01-24 13:27:52,914 botocore.hooks - DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-01-24 13:27:52,914 botocore.hooks - DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-01-24 13:27:52,916 botocore.hooks - DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-01-24 13:27:52,917 botocore.hooks - DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-01-24 13:27:52,919 botocore.hooks - DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-01-24 13:27:52,920 botocore.hooks - DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-01-24 13:27:52,920 botocore.hooks - DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-01-24 13:27:52,920 botocore.hooks - DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-01-24 13:27:52,974 botocore.utils - DEBUG:IMDS ENDPOINT: http://169.254.169.254/
+2021-01-24 13:27:52,977 botocore.credentials - DEBUG:Looking for credentials via: env
+2021-01-24 13:27:52,977 botocore.credentials - DEBUG:Looking for credentials via: assume-role
+2021-01-24 13:27:52,978 botocore.credentials - DEBUG:Looking for credentials via: assume-role-with-web-identity
+2021-01-24 13:27:52,978 botocore.credentials - DEBUG:Looking for credentials via: sso
+2021-01-24 13:27:52,978 botocore.credentials - DEBUG:Looking for credentials via: shared-credentials-file
+2021-01-24 13:27:52,979 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:27:53,004 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\endpoints.json
+2021-01-24 13:27:53,012 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000002974665F310>
+2021-01-24 13:27:54,843 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\organizations\2016-11-28\service-2.json
+2021-01-24 13:27:54,854 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x000002974660A0D0>
+2021-01-24 13:27:54,854 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:27:54,857 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:27:54,876 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\_retry.json
+2021-01-24 13:27:54,877 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:27:54,880 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000002974665F310>
+2021-01-24 13:27:54,881 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x000002974660A0D0>
+2021-01-24 13:27:54,882 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:27:54,884 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:27:54,885 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:27:55,142 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:27:55,641 botocore.hooks - DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-01-24 13:27:55,643 botocore.hooks - DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2021-01-24 13:27:55,643 botocore.hooks - DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-01-24 13:27:55,645 botocore.hooks - DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-01-24 13:27:55,645 botocore.hooks - DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-01-24 13:27:55,646 botocore.hooks - DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-01-24 13:27:55,647 botocore.hooks - DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-01-24 13:27:55,650 botocore.hooks - DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-01-24 13:27:55,650 botocore.hooks - DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-01-24 13:27:55,650 botocore.hooks - DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-01-24 13:27:55,650 botocore.hooks - DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-01-24 13:27:55,654 botocore.utils - DEBUG:IMDS ENDPOINT: http://169.254.169.254/
+2021-01-24 13:27:55,656 botocore.credentials - DEBUG:Looking for credentials via: env
+2021-01-24 13:27:55,656 botocore.credentials - DEBUG:Looking for credentials via: assume-role
+2021-01-24 13:27:55,656 botocore.credentials - DEBUG:Looking for credentials via: assume-role-with-web-identity
+2021-01-24 13:27:55,656 botocore.credentials - DEBUG:Looking for credentials via: sso
+2021-01-24 13:27:55,656 botocore.credentials - DEBUG:Looking for credentials via: shared-credentials-file
+2021-01-24 13:27:55,657 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:27:55,657 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\endpoints.json
+2021-01-24 13:27:55,662 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000026D6DB1C310>
+2021-01-24 13:27:55,714 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\organizations\2016-11-28\service-2.json
+2021-01-24 13:27:55,719 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x0000026D6DAC80D0>
+2021-01-24 13:27:55,720 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:27:55,721 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:27:55,722 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\_retry.json
+2021-01-24 13:27:55,722 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:27:55,724 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000026D6DB1C310>
+2021-01-24 13:27:55,724 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x0000026D6DAC80D0>
+2021-01-24 13:27:55,725 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:27:55,726 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:27:55,726 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:27:55,742 werkzeug - WARNING: * Debugger is active!
+2021-01-24 13:27:55,798 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 13:27:55,811 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 13:28:35,752 werkzeug - INFO: * Detected change in 'c:\\Users\\Sathya R\\Desktop\\AWS project\\updatedscript.py', reloading
+2021-01-24 13:28:35,858 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:28:36,487 botocore.hooks - DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-01-24 13:28:36,489 botocore.hooks - DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2021-01-24 13:28:36,490 botocore.hooks - DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-01-24 13:28:36,493 botocore.hooks - DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-01-24 13:28:36,494 botocore.hooks - DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-01-24 13:28:36,495 botocore.hooks - DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-01-24 13:28:36,497 botocore.hooks - DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-01-24 13:28:36,501 botocore.hooks - DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-01-24 13:28:36,501 botocore.hooks - DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-01-24 13:28:36,502 botocore.hooks - DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-01-24 13:28:36,502 botocore.hooks - DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-01-24 13:28:36,507 botocore.utils - DEBUG:IMDS ENDPOINT: http://169.254.169.254/
+2021-01-24 13:28:36,509 botocore.credentials - DEBUG:Looking for credentials via: env
+2021-01-24 13:28:36,509 botocore.credentials - DEBUG:Looking for credentials via: assume-role
+2021-01-24 13:28:36,509 botocore.credentials - DEBUG:Looking for credentials via: assume-role-with-web-identity
+2021-01-24 13:28:36,509 botocore.credentials - DEBUG:Looking for credentials via: sso
+2021-01-24 13:28:36,509 botocore.credentials - DEBUG:Looking for credentials via: shared-credentials-file
+2021-01-24 13:28:36,510 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:28:36,511 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\endpoints.json
+2021-01-24 13:28:36,519 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000023D5786F310>
+2021-01-24 13:28:36,587 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\organizations\2016-11-28\service-2.json
+2021-01-24 13:28:36,594 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x0000023D5781A0D0>
+2021-01-24 13:28:36,594 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:28:36,596 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:28:36,596 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\_retry.json
+2021-01-24 13:28:36,597 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:28:36,599 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000023D5786F310>
+2021-01-24 13:28:36,600 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x0000023D5781A0D0>
+2021-01-24 13:28:36,600 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:28:36,601 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:28:36,602 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:28:36,622 werkzeug - WARNING: * Debugger is active!
+2021-01-24 13:28:36,629 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 13:28:36,646 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 13:29:55,781 botocore.hooks - DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-01-24 13:29:55,782 botocore.hooks - DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2021-01-24 13:29:55,782 botocore.hooks - DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-01-24 13:29:55,784 botocore.hooks - DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-01-24 13:29:55,784 botocore.hooks - DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-01-24 13:29:55,786 botocore.hooks - DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-01-24 13:29:55,786 botocore.hooks - DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-01-24 13:29:55,789 botocore.hooks - DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-01-24 13:29:55,789 botocore.hooks - DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-01-24 13:29:55,789 botocore.hooks - DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-01-24 13:29:55,789 botocore.hooks - DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-01-24 13:29:55,793 botocore.utils - DEBUG:IMDS ENDPOINT: http://169.254.169.254/
+2021-01-24 13:29:55,795 botocore.credentials - DEBUG:Looking for credentials via: env
+2021-01-24 13:29:55,795 botocore.credentials - DEBUG:Looking for credentials via: assume-role
+2021-01-24 13:29:55,795 botocore.credentials - DEBUG:Looking for credentials via: assume-role-with-web-identity
+2021-01-24 13:29:55,795 botocore.credentials - DEBUG:Looking for credentials via: sso
+2021-01-24 13:29:55,795 botocore.credentials - DEBUG:Looking for credentials via: shared-credentials-file
+2021-01-24 13:29:55,796 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:29:55,797 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\endpoints.json
+2021-01-24 13:29:55,801 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001CF476DC310>
+2021-01-24 13:29:55,855 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\organizations\2016-11-28\service-2.json
+2021-01-24 13:29:55,860 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x000001CF476880D0>
+2021-01-24 13:29:55,861 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:29:55,862 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:29:55,863 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\_retry.json
+2021-01-24 13:29:55,863 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:29:55,866 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001CF476DC310>
+2021-01-24 13:29:55,866 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x000001CF476880D0>
+2021-01-24 13:29:55,866 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:29:55,868 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:29:55,868 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:29:55,899 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:29:56,539 botocore.hooks - DEBUG:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2021-01-24 13:29:56,540 botocore.hooks - DEBUG:Changing event name from before-call.apigateway to before-call.api-gateway
+2021-01-24 13:29:56,541 botocore.hooks - DEBUG:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2021-01-24 13:29:56,542 botocore.hooks - DEBUG:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2021-01-24 13:29:56,542 botocore.hooks - DEBUG:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2021-01-24 13:29:56,543 botocore.hooks - DEBUG:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2021-01-24 13:29:56,544 botocore.hooks - DEBUG:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2021-01-24 13:29:56,547 botocore.hooks - DEBUG:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2021-01-24 13:29:56,547 botocore.hooks - DEBUG:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2021-01-24 13:29:56,547 botocore.hooks - DEBUG:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2021-01-24 13:29:56,547 botocore.hooks - DEBUG:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2021-01-24 13:29:56,553 botocore.utils - DEBUG:IMDS ENDPOINT: http://169.254.169.254/
+2021-01-24 13:29:56,553 botocore.credentials - DEBUG:Looking for credentials via: env
+2021-01-24 13:29:56,555 botocore.credentials - DEBUG:Looking for credentials via: assume-role
+2021-01-24 13:29:56,555 botocore.credentials - DEBUG:Looking for credentials via: assume-role-with-web-identity
+2021-01-24 13:29:56,555 botocore.credentials - DEBUG:Looking for credentials via: sso
+2021-01-24 13:29:56,555 botocore.credentials - DEBUG:Looking for credentials via: shared-credentials-file
+2021-01-24 13:29:56,555 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:29:56,556 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\endpoints.json
+2021-01-24 13:29:56,560 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001AE9658C310>
+2021-01-24 13:29:56,617 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\organizations\2016-11-28\service-2.json
+2021-01-24 13:29:56,622 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x000001AE965380D0>
+2021-01-24 13:29:56,622 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:29:56,624 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:29:56,624 botocore.loaders - DEBUG:Loading JSON file: C:\Users\Sathya R\AppData\Local\Programs\Python\Python39\lib\site-packages\botocore\data\_retry.json
+2021-01-24 13:29:56,625 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:29:56,626 botocore.hooks - DEBUG:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001AE9658C310>
+2021-01-24 13:29:56,627 botocore.hooks - DEBUG:Event creating-client-class.organizations: calling handler <function add_generate_presigned_url at 0x000001AE965380D0>
+2021-01-24 13:29:56,627 botocore.regions - DEBUG:Using partition endpoint for organizations, us-west-2: aws-global
+2021-01-24 13:29:56,628 botocore.endpoint - DEBUG:Setting organizations timeout as (60, 60)
+2021-01-24 13:29:56,629 botocore.client - DEBUG:Registering retry handlers for service: organizations
+2021-01-24 13:29:56,645 werkzeug - WARNING: * Debugger is active!
+2021-01-24 13:29:56,651 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 13:29:56,663 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 13:30:13,295 updatedscript - INFO:Listing all the SCP policies of the AWS account
+2021-01-24 13:30:13,296 botocore.hooks - DEBUG:Event before-parameter-build.organizations.ListPolicies: calling handler <function generate_idempotent_uuid at 0x000001AE965C68B0>
+2021-01-24 13:30:13,297 botocore.hooks - DEBUG:Event before-call.organizations.ListPolicies: calling handler <function inject_api_version_header_if_needed at 0x000001AE965CC160>
+2021-01-24 13:30:13,297 botocore.endpoint - DEBUG:Making request for OperationModel(name=ListPolicies) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'AWSOrganizationsV20161128.ListPolicies', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14'}, 'body': b'{"Filter": "SERVICE_CONTROL_POLICY"}', 'url': 'https://organizations.us-east-1.amazonaws.com/', 'context': {'client_region': 'aws-global', 'client_config': <botocore.config.Config object at 0x000001AE97609100>, 'has_streaming_input': False, 'auth_type': None}}
+2021-01-24 13:30:13,311 botocore.hooks - DEBUG:Event request-created.organizations.ListPolicies: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001AE97609070>>
+2021-01-24 13:30:13,311 botocore.hooks - DEBUG:Event choose-signer.organizations.ListPolicies: calling handler <function set_operation_specific_signer at 0x000001AE965C6790>
+2021-01-24 13:30:13,311 botocore.auth - DEBUG:Calculating signature using v4 auth.
+2021-01-24 13:30:13,311 botocore.auth - DEBUG:CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:organizations.us-east-1.amazonaws.com
+x-amz-date:20210124T080013Z
+x-amz-target:AWSOrganizationsV20161128.ListPolicies
+
+content-type;host;x-amz-date;x-amz-target
+cd5d2a6b3d066fee0189b7b4f8761b5fdc4ba78c219d3692756e027578b47150
+2021-01-24 13:30:13,311 botocore.auth - DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20210124T080013Z
+20210124/us-east-1/organizations/aws4_request
+ba46705198f7e330122cf644eed1a93dcae667daf84f0c7199480b13b3962088
+2021-01-24 13:30:13,311 botocore.auth - DEBUG:Signature:
+7bc6790d9490db4916473647cfab3a72c74f815a52485186d2a6fb712ffbd4bb
+2021-01-24 13:30:13,311 botocore.endpoint - DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://organizations.us-east-1.amazonaws.com/, headers={'X-Amz-Target': b'AWSOrganizationsV20161128.ListPolicies', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14', 'X-Amz-Date': b'20210124T080013Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUWY2OTUPQR5KND6U/20210124/us-east-1/organizations/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-target, Signature=7bc6790d9490db4916473647cfab3a72c74f815a52485186d2a6fb712ffbd4bb', 'Content-Length': '36'}>
+2021-01-24 13:30:13,312 urllib3.connectionpool - DEBUG:Starting new HTTPS connection (1): organizations.us-east-1.amazonaws.com:443
+2021-01-24 13:30:15,322 urllib3.connectionpool - DEBUG:https://organizations.us-east-1.amazonaws.com:443 "POST / HTTP/1.1" 200 4329
+2021-01-24 13:30:15,324 botocore.parsers - DEBUG:Response headers: {'x-amzn-RequestId': '312f77c6-7891-4733-bc05-876028f73879', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '4329', 'Date': 'Sun, 24 Jan 2021 08:00:15 GMT'}
+2021-01-24 13:30:15,324 botocore.parsers - DEBUG:Response body:
+b'{"Policies":[{"Arn":"arn:aws:organizations::aws:policy/service_control_policy/p-FullAWSAccess","AwsManaged":true,"Description":"Allows access to every operation","Id":"p-FullAWSAccess","Name":"FullAWSAccess","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-q2a02sf3","AwsManaged":false,"Description":"Guardrails applied to an organization","Id":"p-q2a02sf3","Name":"aws-guardrails-VFUhZd","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-5u9i5eak","AwsManaged":false,"Description":"Allows CodeCommit_Cloudformation_Guardduty_Organization_KMS","Id":"p-5u9i5eak","Name":"CentralAccountSCP","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-9njznm1p","AwsManaged":false,"Description":"SCPguardpyt","Id":"p-9njznm1p","Name":"flaskscp3test","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-jqsvu76h","AwsManaged":false,"Description":"Disable access to Lam in us-west-1","Id":"p-jqsvu76h","Name":"Deny Lambda for Sathya Account","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-ek3zkp3k","AwsManaged":false,"Description":"check scp1","Id":"p-ek3zkp3k","Name":"check1scppolicy","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-ar2zgzq0","AwsManaged":false,"Description":"Landing zone guardrail","Id":"p-ar2zgzq0","Name":"vscodeguardrail","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-9zu7pf7q","AwsManaged":false,"Description":"Allow S3_CloudWatch_CloudTrail_AWSConfig","Id":"p-9zu7pf7q","Name":"LoggingAccountSCP","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-yu185bwm","AwsManaged":false,"Description":"full access aws!","Id":"p-yu185bwm","Name":"updatecodescp","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-19pubvdo","AwsManaged":false,"Description":"dummytestfinalscp","Id":"p-19pubvdo","Name":"dummyscpcustom","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-rhl1ep2e","AwsManaged":false,"Description":"Landing zone guardrail","Id":"p-rhl1ep2e","Name":"guardrail1","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-x9hvnjbe","AwsManaged":false,"Description":"Allows CodeCommit_Cloudformation_Guardduty_Organization_KMS","Id":"p-x9hvnjbe","Name":"guardcheck","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-ipoj0jae","AwsManaged":false,"Description":"Guardrails applied to an organization","Id":"p-ipoj0jae","Name":"aws-guardrails-JSnQmo","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-i3x8djjv","AwsManaged":false,"Description":"Allows CodeCommit_Cloudformation_Guardduty_Organization_KMS","Id":"p-i3x8djjv","Name":"guardcheckstring","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-iaew1ydr","AwsManaged":false,"Description":"SCPguardtestpyt2","Id":"p-iaew1ydr","Name":"flaskscp2test","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-6nfnwt3c","AwsManaged":false,"Description":"SCPguardpyt","Id":"p-6nfnwt3c","Name":"flaskscp1test","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-pn9eaoz0","AwsManaged":false,"Description":"Guardrails applied to an organization","Id":"p-pn9eaoz0","Name":"aws-guardrails-WKptKO","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-cimw1sfi","AwsManaged":false,"Description":"*","Id":"p-cimw1sfi","Name":"Test_SCP","Type":"SERVICE_CONTROL_POLICY"}]}'
+2021-01-24 13:30:15,327 botocore.hooks - DEBUG:Event needs-retry.organizations.ListPolicies: calling handler <botocore.retryhandler.RetryHandler object at 0x000001AE97609A60>
+2021-01-24 13:30:15,327 botocore.retryhandler - DEBUG:No retry needed.
+2021-01-24 13:30:15,328 updatedscript - INFO:SCP Policies: {
+    "FullAWSAccess": "p-FullAWSAccess",
+    "aws-guardrails-VFUhZd": "p-q2a02sf3",
+    "CentralAccountSCP": "p-5u9i5eak",
+    "flaskscp3test": "p-9njznm1p",
+    "Deny Lambda for Sathya Account": "p-jqsvu76h",
+    "check1scppolicy": "p-ek3zkp3k",
+    "vscodeguardrail": "p-ar2zgzq0",
+    "LoggingAccountSCP": "p-9zu7pf7q",
+    "updatecodescp": "p-yu185bwm",
+    "dummyscpcustom": "p-19pubvdo",
+    "guardrail1": "p-rhl1ep2e",
+    "guardcheck": "p-x9hvnjbe",
+    "aws-guardrails-JSnQmo": "p-ipoj0jae",
+    "guardcheckstring": "p-i3x8djjv",
+    "flaskscp2test": "p-iaew1ydr",
+    "flaskscp1test": "p-6nfnwt3c",
+    "aws-guardrails-WKptKO": "p-pn9eaoz0",
+    "Test_SCP": "p-cimw1sfi"
+}
+2021-01-24 13:30:15,329 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:30:15] "[37mGET /listscp HTTP/1.1[0m" 200 -
+2021-01-24 13:32:58,650 updatedscript - INFO:Listing all the Accounts
+2021-01-24 13:32:58,651 botocore.hooks - DEBUG:Event before-parameter-build.organizations.ListAccounts: calling handler <function generate_idempotent_uuid at 0x000001AE965C68B0>
+2021-01-24 13:32:58,651 botocore.hooks - DEBUG:Event before-call.organizations.ListAccounts: calling handler <function inject_api_version_header_if_needed at 0x000001AE965CC160>
+2021-01-24 13:32:58,651 botocore.endpoint - DEBUG:Making request for OperationModel(name=ListAccounts) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14'}, 'body': b'{}', 'url': 'https://organizations.us-east-1.amazonaws.com/', 'context': {'client_region': 'aws-global', 'client_config': <botocore.config.Config object at 0x000001AE97609100>, 'has_streaming_input': False, 'auth_type': None}}
+2021-01-24 13:32:58,651 botocore.hooks - DEBUG:Event request-created.organizations.ListAccounts: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001AE97609070>>
+2021-01-24 13:32:58,652 botocore.hooks - DEBUG:Event choose-signer.organizations.ListAccounts: calling handler <function set_operation_specific_signer at 0x000001AE965C6790>
+2021-01-24 13:32:58,652 botocore.auth - DEBUG:Calculating signature using v4 auth.
+2021-01-24 13:32:58,652 botocore.auth - DEBUG:CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:organizations.us-east-1.amazonaws.com
+x-amz-date:20210124T080258Z
+x-amz-target:AWSOrganizationsV20161128.ListAccounts
+
+content-type;host;x-amz-date;x-amz-target
+44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a
+2021-01-24 13:32:58,652 botocore.auth - DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20210124T080258Z
+20210124/us-east-1/organizations/aws4_request
+f8e31c346965d9998f6682f2e70546cdd88f32ac852082837cfe605d2d86ac31
+2021-01-24 13:32:58,653 botocore.auth - DEBUG:Signature:
+d325ebe1a0c1eb856870d6ef9517a31ee17758e95ee5beb9570176d4bcd2eefe
+2021-01-24 13:32:58,653 botocore.endpoint - DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://organizations.us-east-1.amazonaws.com/, headers={'X-Amz-Target': b'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14', 'X-Amz-Date': b'20210124T080258Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUWY2OTUPQR5KND6U/20210124/us-east-1/organizations/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-target, Signature=d325ebe1a0c1eb856870d6ef9517a31ee17758e95ee5beb9570176d4bcd2eefe', 'Content-Length': '2'}>
+2021-01-24 13:32:58,654 urllib3.connectionpool - DEBUG:Resetting dropped connection: organizations.us-east-1.amazonaws.com
+2021-01-24 13:32:59,739 urllib3.connectionpool - DEBUG:https://organizations.us-east-1.amazonaws.com:443 "POST / HTTP/1.1" 200 5319
+2021-01-24 13:32:59,740 botocore.parsers - DEBUG:Response headers: {'x-amzn-RequestId': '9a51d6b0-3ca5-4187-91df-388da00e442a', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '5319', 'Date': 'Sun, 24 Jan 2021 08:02:59 GMT'}
+2021-01-24 13:32:59,740 botocore.parsers - DEBUG:Response body:
+b'{"Accounts":[{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/812140953942","Email":"pyt2@abcxyz.com","Id":"812140953942","JoinedMethod":"CREATED","JoinedTimestamp":1.605192248727E9,"Name":"pytSumit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/316744330598","Email":"abc123456@gmailx1.com","Id":"316744330598","JoinedMethod":"CREATED","JoinedTimestamp":1.603774457001E9,"Name":"abc1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/865615574130","Email":"9036355539xyz@abc.com","Id":"865615574130","JoinedMethod":"CREATED","JoinedTimestamp":1.603983699417E9,"Name":"testapi2","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/959457434012","Email":"vdms@xyz.com","Id":"959457434012","JoinedMethod":"CREATED","JoinedTimestamp":1.603121912616E9,"Name":"VDMS","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/952838089727","Email":"satyaacc@gmail.com","Id":"952838089727","JoinedMethod":"CREATED","JoinedTimestamp":1.603773262353E9,"Name":"satyaaccount","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/249175382967","Email":"Api123456@gmailx123.com","Id":"249175382967","JoinedMethod":"CREATED","JoinedTimestamp":1.6040670226E9,"Name":"Api1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/805607449710","Email":"Api123456@gmailx1456.com","Id":"805607449710","JoinedMethod":"CREATED","JoinedTimestamp":1.604067089139E9,"Name":"Api2account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/681744429061","Email":"missionapp@xyz.com","Id":"681744429061","JoinedMethod":"CREATED","JoinedTimestamp":1.603122037162E9,"Name":"Missionapp","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/972530011371","Email":"sathyar834@gmail.com","Id":"972530011371","JoinedMethod":"CREATED","JoinedTimestamp":1.601284661192E9,"Name":"Sathya R","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/932761296638","Email":"central@xyz.com","Id":"932761296638","JoinedMethod":"CREATED","JoinedTimestamp":1.60312191335E9,"Name":"Central","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/312135302755","Email":"xyzabc834@gmail.com","Id":"312135302755","JoinedMethod":"CREATED","JoinedTimestamp":1.608306431495E9,"Name":"finalaccount6985","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/124366690439","Email":"newmail@abc.com","Id":"124366690439","JoinedMethod":"CREATED","JoinedTimestamp":1.60402240047E9,"Name":"newuserdev01","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/640338191567","Email":"pyt@pytabc.com","Id":"640338191567","JoinedMethod":"CREATED","JoinedTimestamp":1.605193213808E9,"Name":"pythonaccount","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/505695001123","Email":"Apicustom@abcxyz.com","Id":"505695001123","JoinedMethod":"CREATED","JoinedTimestamp":1.604754658546E9,"Name":"ApitestSatya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/660588141457","Email":"pyt2sleep@abcxyz.com","Id":"660588141457","JoinedMethod":"CREATED","JoinedTimestamp":1.605194351644E9,"Name":"pytSumitsleep","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/689020024752","Email":"veralevelgamersyt@gmail.com","Id":"689020024752","JoinedMethod":"CREATED","JoinedTimestamp":1.60908995734E9,"Name":"VLG","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/759949070542","Email":"checklastaccount@xyz123.com","Id":"759949070542","JoinedMethod":"CREATED","JoinedTimestamp":1.607178257329E9,"Name":"checklastaccount","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/576029292242","Email":"satya@gmail.com","Id":"576029292242","JoinedMethod":"CREATED","JoinedTimestamp":1.603772928675E9,"Name":"satya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/802926519859","Email":"audit@xyz.com","Id":"802926519859","JoinedMethod":"CREATED","JoinedTimestamp":1.60257334838E9,"Name":"Audit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/767321896527","Email":"fakeabc3456@gmailx1456.com","Id":"767321896527","JoinedMethod":"CREATED","JoinedTimestamp":1.603904155228E9,"Name":"fakedumy2account","Status":"ACTIVE"}],"NextToken":"H4sIAAAAAAAAADVT206aYRB8F65709s+R1+gSbkgbWqiiRdtmigoePbXqqhQi21RQREVEA97eKR5he5ONZl82X++2W9nyfCtNF+enavMfCm9e/umNFeerXz4XPla/vh+5lM5uBLsDn4BCzzCHKawDuw3fPTC+z3sCfYXdkPNFDaCnVLZ42fwW3yhDl+En8AbsF1YLRmrwjay9jZsHdaCrcF34T/hBWVN2AHsiMooNvn+r5d3ostXIPfELTGBKMRZR/HMswfpQIZQhT5Db6Fd6Dm0w8YhZAw9gAoFnhDj7V22aw26By2IdWgTegOtQo+JuF3KT9mG7EFOIG3ID2gdusargvwm5L9+P2fJLrQNDVnonyDXkCvoANLl0Nji4pW/JBmY0mps9Jj2RHhOyMTVDTcdc3e264jtoWlA4lfagITJgsVqIhzmlFXe1iCHkAVIi/UDt4gR9bQqTcgRZIdXLW66T75IS34KP4NfwgfwLvwW3oNPYH1YlyHpw0N2TeUT3ChrwSMekZ8hbJxBStk0A5aay9RHrpKP2ERIDhmDJrEPK4gdWDvzkGjxPGaElth1AK8nk+P+8M0H+GpmJs+CHvpMFAOc9sLtOUPO6RnjIYMdU65gQl7TsJ3R/FnCx9w9/ggDmMEmTP5zCmLxzPkerEFLK6/5jz/FMsN/RNsR7AVYpHoTHv4XuEIVvsyuRdbr8C14jZrtrK1W+v4Pt+oZvMQDAAA="}'
+2021-01-24 13:32:59,741 botocore.hooks - DEBUG:Event needs-retry.organizations.ListAccounts: calling handler <botocore.retryhandler.RetryHandler object at 0x000001AE97609A60>
+2021-01-24 13:32:59,741 botocore.retryhandler - DEBUG:No retry needed.
+2021-01-24 13:32:59,742 botocore.hooks - DEBUG:Event before-parameter-build.organizations.ListAccounts: calling handler <function generate_idempotent_uuid at 0x000001AE965C68B0>
+2021-01-24 13:32:59,742 botocore.hooks - DEBUG:Event before-call.organizations.ListAccounts: calling handler <function inject_api_version_header_if_needed at 0x000001AE965CC160>
+2021-01-24 13:32:59,742 botocore.endpoint - DEBUG:Making request for OperationModel(name=ListAccounts) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14'}, 'body': b'{"NextToken": "H4sIAAAAAAAAADVT206aYRB8F65709s+R1+gSbkgbWqiiRdtmigoePbXqqhQi21RQREVEA97eKR5he5ONZl82X++2W9nyfCtNF+enavMfCm9e/umNFeerXz4XPla/vh+5lM5uBLsDn4BCzzCHKawDuw3fPTC+z3sCfYXdkPNFDaCnVLZ42fwW3yhDl+En8AbsF1YLRmrwjay9jZsHdaCrcF34T/hBWVN2AHsiMooNvn+r5d3ostXIPfELTGBKMRZR/HMswfpQIZQhT5Db6Fd6Dm0w8YhZAw9gAoFnhDj7V22aw26By2IdWgTegOtQo+JuF3KT9mG7EFOIG3ID2gdusargvwm5L9+P2fJLrQNDVnonyDXkCvoANLl0Nji4pW/JBmY0mps9Jj2RHhOyMTVDTcdc3e264jtoWlA4lfagITJgsVqIhzmlFXe1iCHkAVIi/UDt4gR9bQqTcgRZIdXLW66T75IS34KP4NfwgfwLvwW3oNPYH1YlyHpw0N2TeUT3ChrwSMekZ8hbJxBStk0A5aay9RHrpKP2ERIDhmDJrEPK4gdWDvzkGjxPGaElth1AK8nk+P+8M0H+GpmJs+CHvpMFAOc9sLtOUPO6RnjIYMdU65gQl7TsJ3R/FnCx9w9/ggDmMEmTP5zCmLxzPkerEFLK6/5jz/FMsN/RNsR7AVYpHoTHv4XuEIVvsyuRdbr8C14jZrtrK1W+v4Pt+oZvMQDAAA="}', 'url': 'https://organizations.us-east-1.amazonaws.com/', 'context': {'client_region': 'aws-global', 'client_config': <botocore.config.Config object at 0x000001AE97609100>, 'has_streaming_input': False, 'auth_type': None}}
+2021-01-24 13:32:59,742 botocore.hooks - DEBUG:Event request-created.organizations.ListAccounts: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001AE97609070>>
+2021-01-24 13:32:59,742 botocore.hooks - DEBUG:Event choose-signer.organizations.ListAccounts: calling handler <function set_operation_specific_signer at 0x000001AE965C6790>
+2021-01-24 13:32:59,743 botocore.auth - DEBUG:Calculating signature using v4 auth.
+2021-01-24 13:32:59,743 botocore.auth - DEBUG:CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:organizations.us-east-1.amazonaws.com
+x-amz-date:20210124T080259Z
+x-amz-target:AWSOrganizationsV20161128.ListAccounts
+
+content-type;host;x-amz-date;x-amz-target
+2f5061daa2fd7c4843a93b83904b4d03cf92d45f2b515ab16ea3c051fdba5642
+2021-01-24 13:32:59,743 botocore.auth - DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20210124T080259Z
+20210124/us-east-1/organizations/aws4_request
+665786d988ddaee4c191d0b24a4d38b51793fd74f35aa12575f4a5d2c67de9df
+2021-01-24 13:32:59,743 botocore.auth - DEBUG:Signature:
+6b3c6a67af3981b74d8934eb01af2c31f9043209e8c79cac950d8d8012ee9879
+2021-01-24 13:32:59,743 botocore.endpoint - DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://organizations.us-east-1.amazonaws.com/, headers={'X-Amz-Target': b'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14', 'X-Amz-Date': b'20210124T080259Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUWY2OTUPQR5KND6U/20210124/us-east-1/organizations/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-target, Signature=6b3c6a67af3981b74d8934eb01af2c31f9043209e8c79cac950d8d8012ee9879', 'Content-Length': '749'}>
+2021-01-24 13:33:00,093 urllib3.connectionpool - DEBUG:https://organizations.us-east-1.amazonaws.com:443 "POST / HTTP/1.1" 200 3698
+2021-01-24 13:33:00,093 botocore.parsers - DEBUG:Response headers: {'x-amzn-RequestId': 'f72b1387-76d5-4304-8e8c-7af2aefae751', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '3698', 'Date': 'Sun, 24 Jan 2021 08:02:59 GMT'}
+2021-01-24 13:33:00,093 botocore.parsers - DEBUG:Response body:
+b'{"Accounts":[{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/945239437978","Email":"pyt1@abcxyz.com","Id":"945239437978","JoinedMethod":"CREATED","JoinedTimestamp":1.605192247848E9,"Name":"pytSatya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/527835484298","Email":"dumy123@xya.com","Id":"527835484298","JoinedMethod":"CREATED","JoinedTimestamp":1.603900648274E9,"Name":"dummy1","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/210927249957","Email":"xyz123456@gmailx1.com","Id":"210927249957","JoinedMethod":"CREATED","JoinedTimestamp":1.60377445633E9,"Name":"xyz1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/169731329154","Email":"VDSS@xyz.com","Id":"169731329154","JoinedMethod":"CREATED","JoinedTimestamp":1.602994469132E9,"Name":"VDSS","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/068597922674","Email":"logging@xyz.com","Id":"068597922674","JoinedMethod":"CREATED","JoinedTimestamp":1.603121914113E9,"Name":"Logging","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/738750764630","Email":"log-archive@xyz.com","Id":"738750764630","JoinedMethod":"CREATED","JoinedTimestamp":1.602573340366E9,"Name":"Log archive","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/012680970011","Email":"q1234568@gmailx1456.com","Id":"012680970011","JoinedMethod":"CREATED","JoinedTimestamp":1.604241183044E9,"Name":"Sampleaccount2","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/705047059868","Email":"fakexyz1236@gmailx123.com","Id":"705047059868","JoinedMethod":"CREATED","JoinedTimestamp":1.603904088402E9,"Name":"fakedumy1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/387843785191","Email":"pyt1sleep@abcxyz.com","Id":"387843785191","JoinedMethod":"CREATED","JoinedTimestamp":1.605194351068E9,"Name":"pytSatyasleep","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/308042207821","Email":"Finalcustom@abcxyz.com","Id":"308042207821","JoinedMethod":"CREATED","JoinedTimestamp":1.604674979383E9,"Name":"FinalcustomSatya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/323788643615","Email":"jobs2sam@gmail.com","Id":"323788643615","JoinedMethod":"INVITED","JoinedTimestamp":1.586056009935E9,"Name":"infra-dev","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/105553713263","Email":"Finalcustomsumit2@abcxyz.com","Id":"105553713263","JoinedMethod":"CREATED","JoinedTimestamp":1.604675029042E9,"Name":"FinalcustomSumit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/796580307834","Email":"xyz123456@gmailx123.com","Id":"796580307834","JoinedMethod":"CREATED","JoinedTimestamp":1.603900470077E9,"Name":"dumy1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/784725266810","Email":"8553947760xyz@abc.com","Id":"784725266810","JoinedMethod":"CREATED","JoinedTimestamp":1.60398369864E9,"Name":"testapi1","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/251202508777","Email":"Apicustomsumit2@abcxyz.com","Id":"251202508777","JoinedMethod":"CREATED","JoinedTimestamp":1.604754608032E9,"Name":"ApitestSumit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/715921394743","Email":"q1234567@gmailx123.com","Id":"715921394743","JoinedMethod":"CREATED","JoinedTimestamp":1.604241135288E9,"Name":"Sampleaccount1","Status":"ACTIVE"}]}'
+2021-01-24 13:33:00,094 botocore.hooks - DEBUG:Event needs-retry.organizations.ListAccounts: calling handler <botocore.retryhandler.RetryHandler object at 0x000001AE97609A60>
+2021-01-24 13:33:00,094 botocore.retryhandler - DEBUG:No retry needed.
+2021-01-24 13:33:00,094 updatedscript - INFO:List of Accounts : {
+    "pytSumit": "812140953942",
+    "abc1account": "316744330598",
+    "testapi2": "865615574130",
+    "VDMS": "959457434012",
+    "satyaaccount": "952838089727",
+    "Api1account": "249175382967",
+    "Api2account": "805607449710",
+    "Missionapp": "681744429061",
+    "Sathya R": "972530011371",
+    "Central": "932761296638",
+    "finalaccount6985": "312135302755",
+    "newuserdev01": "124366690439",
+    "pythonaccount": "640338191567",
+    "ApitestSatya": "505695001123",
+    "pytSumitsleep": "660588141457",
+    "VLG": "689020024752",
+    "checklastaccount": "759949070542",
+    "satya": "576029292242",
+    "Audit": "802926519859",
+    "fakedumy2account": "767321896527",
+    "pytSatya": "945239437978",
+    "dummy1": "527835484298",
+    "xyz1account": "210927249957",
+    "VDSS": "169731329154",
+    "Logging": "068597922674",
+    "Log archive": "738750764630",
+    "Sampleaccount2": "012680970011",
+    "fakedumy1account": "705047059868",
+    "pytSatyasleep": "387843785191",
+    "FinalcustomSatya": "308042207821",
+    "infra-dev": "323788643615",
+    "FinalcustomSumit": "105553713263",
+    "dumy1account": "796580307834",
+    "testapi1": "784725266810",
+    "ApitestSumit": "251202508777",
+    "Sampleaccount1": "715921394743"
+}
+2021-01-24 13:33:00,095 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:33:00] "[37mGET /listaccounts HTTP/1.1[0m" 200 -
+2021-01-24 13:35:34,422 updatedscript - INFO:Listing all the SCP policies of the AWS account
+2021-01-24 13:35:34,423 botocore.hooks - DEBUG:Event before-parameter-build.organizations.ListPolicies: calling handler <function generate_idempotent_uuid at 0x000001AE965C68B0>
+2021-01-24 13:35:34,423 botocore.hooks - DEBUG:Event before-call.organizations.ListPolicies: calling handler <function inject_api_version_header_if_needed at 0x000001AE965CC160>
+2021-01-24 13:35:34,423 botocore.endpoint - DEBUG:Making request for OperationModel(name=ListPolicies) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'AWSOrganizationsV20161128.ListPolicies', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14'}, 'body': b'{"Filter": "SERVICE_CONTROL_POLICY"}', 'url': 'https://organizations.us-east-1.amazonaws.com/', 'context': {'client_region': 'aws-global', 'client_config': <botocore.config.Config object at 0x000001AE97609100>, 'has_streaming_input': False, 'auth_type': None}}
+2021-01-24 13:35:34,424 botocore.hooks - DEBUG:Event request-created.organizations.ListPolicies: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001AE97609070>>
+2021-01-24 13:35:34,424 botocore.hooks - DEBUG:Event choose-signer.organizations.ListPolicies: calling handler <function set_operation_specific_signer at 0x000001AE965C6790>
+2021-01-24 13:35:34,425 botocore.auth - DEBUG:Calculating signature using v4 auth.
+2021-01-24 13:35:34,425 botocore.auth - DEBUG:CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:organizations.us-east-1.amazonaws.com
+x-amz-date:20210124T080534Z
+x-amz-target:AWSOrganizationsV20161128.ListPolicies
+
+content-type;host;x-amz-date;x-amz-target
+cd5d2a6b3d066fee0189b7b4f8761b5fdc4ba78c219d3692756e027578b47150
+2021-01-24 13:35:34,425 botocore.auth - DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20210124T080534Z
+20210124/us-east-1/organizations/aws4_request
+dc7d045140621c5638b8af37a6b5389d329a7cc04ab67add1c0c8aa1429f8a47
+2021-01-24 13:35:34,425 botocore.auth - DEBUG:Signature:
+381478700f9a1163287f31384ef3443ccaed4c25259e088d2271553c64f1efd6
+2021-01-24 13:35:34,426 botocore.endpoint - DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://organizations.us-east-1.amazonaws.com/, headers={'X-Amz-Target': b'AWSOrganizationsV20161128.ListPolicies', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14', 'X-Amz-Date': b'20210124T080534Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUWY2OTUPQR5KND6U/20210124/us-east-1/organizations/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-target, Signature=381478700f9a1163287f31384ef3443ccaed4c25259e088d2271553c64f1efd6', 'Content-Length': '36'}>
+2021-01-24 13:35:34,426 urllib3.connectionpool - DEBUG:Resetting dropped connection: organizations.us-east-1.amazonaws.com
+2021-01-24 13:35:36,086 urllib3.connectionpool - DEBUG:https://organizations.us-east-1.amazonaws.com:443 "POST / HTTP/1.1" 200 4329
+2021-01-24 13:35:36,088 botocore.parsers - DEBUG:Response headers: {'x-amzn-RequestId': '384c43a1-47c4-428f-9d2e-f8d87f25ad8e', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '4329', 'Date': 'Sun, 24 Jan 2021 08:05:35 GMT'}
+2021-01-24 13:35:36,088 botocore.parsers - DEBUG:Response body:
+b'{"Policies":[{"Arn":"arn:aws:organizations::aws:policy/service_control_policy/p-FullAWSAccess","AwsManaged":true,"Description":"Allows access to every operation","Id":"p-FullAWSAccess","Name":"FullAWSAccess","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-q2a02sf3","AwsManaged":false,"Description":"Guardrails applied to an organization","Id":"p-q2a02sf3","Name":"aws-guardrails-VFUhZd","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-5u9i5eak","AwsManaged":false,"Description":"Allows CodeCommit_Cloudformation_Guardduty_Organization_KMS","Id":"p-5u9i5eak","Name":"CentralAccountSCP","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-9njznm1p","AwsManaged":false,"Description":"SCPguardpyt","Id":"p-9njznm1p","Name":"flaskscp3test","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-jqsvu76h","AwsManaged":false,"Description":"Disable access to Lam in us-west-1","Id":"p-jqsvu76h","Name":"Deny Lambda for Sathya Account","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-ek3zkp3k","AwsManaged":false,"Description":"check scp1","Id":"p-ek3zkp3k","Name":"check1scppolicy","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-ar2zgzq0","AwsManaged":false,"Description":"Landing zone guardrail","Id":"p-ar2zgzq0","Name":"vscodeguardrail","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-9zu7pf7q","AwsManaged":false,"Description":"Allow S3_CloudWatch_CloudTrail_AWSConfig","Id":"p-9zu7pf7q","Name":"LoggingAccountSCP","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-yu185bwm","AwsManaged":false,"Description":"full access aws!","Id":"p-yu185bwm","Name":"updatecodescp","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-19pubvdo","AwsManaged":false,"Description":"dummytestfinalscp","Id":"p-19pubvdo","Name":"dummyscpcustom","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-rhl1ep2e","AwsManaged":false,"Description":"Landing zone guardrail","Id":"p-rhl1ep2e","Name":"guardrail1","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-x9hvnjbe","AwsManaged":false,"Description":"Allows CodeCommit_Cloudformation_Guardduty_Organization_KMS","Id":"p-x9hvnjbe","Name":"guardcheck","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-ipoj0jae","AwsManaged":false,"Description":"Guardrails applied to an organization","Id":"p-ipoj0jae","Name":"aws-guardrails-JSnQmo","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-i3x8djjv","AwsManaged":false,"Description":"Allows CodeCommit_Cloudformation_Guardduty_Organization_KMS","Id":"p-i3x8djjv","Name":"guardcheckstring","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-iaew1ydr","AwsManaged":false,"Description":"SCPguardtestpyt2","Id":"p-iaew1ydr","Name":"flaskscp2test","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-6nfnwt3c","AwsManaged":false,"Description":"SCPguardpyt","Id":"p-6nfnwt3c","Name":"flaskscp1test","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-pn9eaoz0","AwsManaged":false,"Description":"Guardrails applied to an organization","Id":"p-pn9eaoz0","Name":"aws-guardrails-WKptKO","Type":"SERVICE_CONTROL_POLICY"},{"Arn":"arn:aws:organizations::323788643615:policy/o-tdnkfh0fue/service_control_policy/p-cimw1sfi","AwsManaged":false,"Description":"*","Id":"p-cimw1sfi","Name":"Test_SCP","Type":"SERVICE_CONTROL_POLICY"}]}'
+2021-01-24 13:35:36,089 botocore.hooks - DEBUG:Event needs-retry.organizations.ListPolicies: calling handler <botocore.retryhandler.RetryHandler object at 0x000001AE97609A60>
+2021-01-24 13:35:36,089 botocore.retryhandler - DEBUG:No retry needed.
+2021-01-24 13:35:36,090 updatedscript - INFO:SCP Policies: {
+    "FullAWSAccess": "p-FullAWSAccess",
+    "aws-guardrails-VFUhZd": "p-q2a02sf3",
+    "CentralAccountSCP": "p-5u9i5eak",
+    "flaskscp3test": "p-9njznm1p",
+    "Deny Lambda for Sathya Account": "p-jqsvu76h",
+    "check1scppolicy": "p-ek3zkp3k",
+    "vscodeguardrail": "p-ar2zgzq0",
+    "LoggingAccountSCP": "p-9zu7pf7q",
+    "updatecodescp": "p-yu185bwm",
+    "dummyscpcustom": "p-19pubvdo",
+    "guardrail1": "p-rhl1ep2e",
+    "guardcheck": "p-x9hvnjbe",
+    "aws-guardrails-JSnQmo": "p-ipoj0jae",
+    "guardcheckstring": "p-i3x8djjv",
+    "flaskscp2test": "p-iaew1ydr",
+    "flaskscp1test": "p-6nfnwt3c",
+    "aws-guardrails-WKptKO": "p-pn9eaoz0",
+    "Test_SCP": "p-cimw1sfi"
+}
+2021-01-24 13:35:36,090 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:35:36] "[37mGET /listscp HTTP/1.1[0m" 200 -
+2021-01-24 13:36:56,302 updatedscript - INFO:Listing all the Accounts
+2021-01-24 13:36:56,302 botocore.hooks - DEBUG:Event before-parameter-build.organizations.ListAccounts: calling handler <function generate_idempotent_uuid at 0x000001AE965C68B0>
+2021-01-24 13:36:56,303 botocore.hooks - DEBUG:Event before-call.organizations.ListAccounts: calling handler <function inject_api_version_header_if_needed at 0x000001AE965CC160>
+2021-01-24 13:36:56,303 botocore.endpoint - DEBUG:Making request for OperationModel(name=ListAccounts) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14'}, 'body': b'{}', 'url': 'https://organizations.us-east-1.amazonaws.com/', 'context': {'client_region': 'aws-global', 'client_config': <botocore.config.Config object at 0x000001AE97609100>, 'has_streaming_input': False, 'auth_type': None}}
+2021-01-24 13:36:56,304 botocore.hooks - DEBUG:Event request-created.organizations.ListAccounts: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001AE97609070>>
+2021-01-24 13:36:56,304 botocore.hooks - DEBUG:Event choose-signer.organizations.ListAccounts: calling handler <function set_operation_specific_signer at 0x000001AE965C6790>
+2021-01-24 13:36:56,305 botocore.auth - DEBUG:Calculating signature using v4 auth.
+2021-01-24 13:36:56,305 botocore.auth - DEBUG:CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:organizations.us-east-1.amazonaws.com
+x-amz-date:20210124T080656Z
+x-amz-target:AWSOrganizationsV20161128.ListAccounts
+
+content-type;host;x-amz-date;x-amz-target
+44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a
+2021-01-24 13:36:56,305 botocore.auth - DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20210124T080656Z
+20210124/us-east-1/organizations/aws4_request
+686d4871ade0deec617b65f0a07b1793f845ba593dec5cb5b893a95567bc5e15
+2021-01-24 13:36:56,306 botocore.auth - DEBUG:Signature:
+629921b60d6dee04fae8bdf8ac5a36c5ad39af3a17e6dc5322756210d248c2a0
+2021-01-24 13:36:56,306 botocore.endpoint - DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://organizations.us-east-1.amazonaws.com/, headers={'X-Amz-Target': b'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14', 'X-Amz-Date': b'20210124T080656Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUWY2OTUPQR5KND6U/20210124/us-east-1/organizations/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-target, Signature=629921b60d6dee04fae8bdf8ac5a36c5ad39af3a17e6dc5322756210d248c2a0', 'Content-Length': '2'}>
+2021-01-24 13:36:56,307 urllib3.connectionpool - DEBUG:Resetting dropped connection: organizations.us-east-1.amazonaws.com
+2021-01-24 13:36:57,348 urllib3.connectionpool - DEBUG:https://organizations.us-east-1.amazonaws.com:443 "POST / HTTP/1.1" 200 5319
+2021-01-24 13:36:57,348 botocore.parsers - DEBUG:Response headers: {'x-amzn-RequestId': '7189192c-8f9a-4b95-905d-e8c04eee3f44', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '5319', 'Date': 'Sun, 24 Jan 2021 08:06:56 GMT'}
+2021-01-24 13:36:57,349 botocore.parsers - DEBUG:Response body:
+b'{"Accounts":[{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/812140953942","Email":"pyt2@abcxyz.com","Id":"812140953942","JoinedMethod":"CREATED","JoinedTimestamp":1.605192248727E9,"Name":"pytSumit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/316744330598","Email":"abc123456@gmailx1.com","Id":"316744330598","JoinedMethod":"CREATED","JoinedTimestamp":1.603774457001E9,"Name":"abc1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/865615574130","Email":"9036355539xyz@abc.com","Id":"865615574130","JoinedMethod":"CREATED","JoinedTimestamp":1.603983699417E9,"Name":"testapi2","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/959457434012","Email":"vdms@xyz.com","Id":"959457434012","JoinedMethod":"CREATED","JoinedTimestamp":1.603121912616E9,"Name":"VDMS","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/952838089727","Email":"satyaacc@gmail.com","Id":"952838089727","JoinedMethod":"CREATED","JoinedTimestamp":1.603773262353E9,"Name":"satyaaccount","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/249175382967","Email":"Api123456@gmailx123.com","Id":"249175382967","JoinedMethod":"CREATED","JoinedTimestamp":1.6040670226E9,"Name":"Api1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/805607449710","Email":"Api123456@gmailx1456.com","Id":"805607449710","JoinedMethod":"CREATED","JoinedTimestamp":1.604067089139E9,"Name":"Api2account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/681744429061","Email":"missionapp@xyz.com","Id":"681744429061","JoinedMethod":"CREATED","JoinedTimestamp":1.603122037162E9,"Name":"Missionapp","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/972530011371","Email":"sathyar834@gmail.com","Id":"972530011371","JoinedMethod":"CREATED","JoinedTimestamp":1.601284661192E9,"Name":"Sathya R","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/932761296638","Email":"central@xyz.com","Id":"932761296638","JoinedMethod":"CREATED","JoinedTimestamp":1.60312191335E9,"Name":"Central","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/312135302755","Email":"xyzabc834@gmail.com","Id":"312135302755","JoinedMethod":"CREATED","JoinedTimestamp":1.608306431495E9,"Name":"finalaccount6985","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/124366690439","Email":"newmail@abc.com","Id":"124366690439","JoinedMethod":"CREATED","JoinedTimestamp":1.60402240047E9,"Name":"newuserdev01","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/640338191567","Email":"pyt@pytabc.com","Id":"640338191567","JoinedMethod":"CREATED","JoinedTimestamp":1.605193213808E9,"Name":"pythonaccount","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/505695001123","Email":"Apicustom@abcxyz.com","Id":"505695001123","JoinedMethod":"CREATED","JoinedTimestamp":1.604754658546E9,"Name":"ApitestSatya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/660588141457","Email":"pyt2sleep@abcxyz.com","Id":"660588141457","JoinedMethod":"CREATED","JoinedTimestamp":1.605194351644E9,"Name":"pytSumitsleep","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/689020024752","Email":"veralevelgamersyt@gmail.com","Id":"689020024752","JoinedMethod":"CREATED","JoinedTimestamp":1.60908995734E9,"Name":"VLG","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/759949070542","Email":"checklastaccount@xyz123.com","Id":"759949070542","JoinedMethod":"CREATED","JoinedTimestamp":1.607178257329E9,"Name":"checklastaccount","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/576029292242","Email":"satya@gmail.com","Id":"576029292242","JoinedMethod":"CREATED","JoinedTimestamp":1.603772928675E9,"Name":"satya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/802926519859","Email":"audit@xyz.com","Id":"802926519859","JoinedMethod":"CREATED","JoinedTimestamp":1.60257334838E9,"Name":"Audit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/767321896527","Email":"fakeabc3456@gmailx1456.com","Id":"767321896527","JoinedMethod":"CREATED","JoinedTimestamp":1.603904155228E9,"Name":"fakedumy2account","Status":"ACTIVE"}],"NextToken":"H4sIAAAAAAAAADVT206aYRB8F65709s+R1+gSbkgbWqiSS/aNEFRFBX7a0FUqNW2oKCIB/C4h0eaV+juVJPJl/3nm/12lgxfS5/L8wuVuU+lN69flRbK85V3Hytfyu/fzn0oB1eCXcNPYYEHmMMUdgT7Db955v0W9gj7C7uk5g52AzumcsjP4Lf4Qh2+CD+Er8J2YLVkbAm2mbX3YBuwLmwdvgP/CS8o68B2YftURtHk+7+e34kuX4PcElfEDKIQZx3FE88h5AgygSr0CXoF7UNPoEdsnECm0F2oUOAJMd5eZ7vWoC1oQWxAO9BL6BL0gIjb5fyU75AW5BDSg/yA1qHrvCrINyH/9e2cJTvQHjRkoX+EXEDOoWNIn0Nji9MX/oxk4I5WY6OHtCfCc0Ymri656ZS7s11v2B6aVUj8SpuQMFmwaCTCYU5p8LYG2YNUIV3W99wiRtTTqnQg+5BtXnW5aZt8kZb8GD6An8HH8D78Cj6Ez2AjWJ8hGcFDdkHlI9wo68IjHpGfCWyaQUrZXQYsNWepj1wlH7GJkOwxBh2iDSuIbVgv85Do8jxghJbZtQuvJ5Pj/vDNe3gjM5NnQQ8jJooBTnvh9oQh5/SM8YTBjinnMCGvadgGND9I+JS7xx9hDDPYjMl/SkEsnjlvwVZpae0l//GnWGH492k7gl2FRaqb8PBf5QpL8BV2LbLeYnuT5tezsFrp2z/8xTAdxAMAAA=="}'
+2021-01-24 13:36:57,352 botocore.hooks - DEBUG:Event needs-retry.organizations.ListAccounts: calling handler <botocore.retryhandler.RetryHandler object at 0x000001AE97609A60>
+2021-01-24 13:36:57,352 botocore.retryhandler - DEBUG:No retry needed.
+2021-01-24 13:36:57,353 botocore.hooks - DEBUG:Event before-parameter-build.organizations.ListAccounts: calling handler <function generate_idempotent_uuid at 0x000001AE965C68B0>
+2021-01-24 13:36:57,353 botocore.hooks - DEBUG:Event before-call.organizations.ListAccounts: calling handler <function inject_api_version_header_if_needed at 0x000001AE965CC160>
+2021-01-24 13:36:57,353 botocore.endpoint - DEBUG:Making request for OperationModel(name=ListAccounts) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14'}, 'body': b'{"NextToken": "H4sIAAAAAAAAADVT206aYRB8F65709s+R1+gSbkgbWqiSS/aNEFRFBX7a0FUqNW2oKCIB/C4h0eaV+juVJPJl/3nm/12lgxfS5/L8wuVuU+lN69flRbK85V3Hytfyu/fzn0oB1eCXcNPYYEHmMMUdgT7Db955v0W9gj7C7uk5g52AzumcsjP4Lf4Qh2+CD+Er8J2YLVkbAm2mbX3YBuwLmwdvgP/CS8o68B2YftURtHk+7+e34kuX4PcElfEDKIQZx3FE88h5AgygSr0CXoF7UNPoEdsnECm0F2oUOAJMd5eZ7vWoC1oQWxAO9BL6BL0gIjb5fyU75AW5BDSg/yA1qHrvCrINyH/9e2cJTvQHjRkoX+EXEDOoWNIn0Nji9MX/oxk4I5WY6OHtCfCc0Ymri656ZS7s11v2B6aVUj8SpuQMFmwaCTCYU5p8LYG2YNUIV3W99wiRtTTqnQg+5BtXnW5aZt8kZb8GD6An8HH8D78Cj6Ez2AjWJ8hGcFDdkHlI9wo68IjHpGfCWyaQUrZXQYsNWepj1wlH7GJkOwxBh2iDSuIbVgv85Do8jxghJbZtQuvJ5Pj/vDNe3gjM5NnQQ8jJooBTnvh9oQh5/SM8YTBjinnMCGvadgGND9I+JS7xx9hDDPYjMl/SkEsnjlvwVZpae0l//GnWGH492k7gl2FRaqb8PBf5QpL8BV2LbLeYnuT5tezsFrp2z/8xTAdxAMAAA=="}', 'url': 'https://organizations.us-east-1.amazonaws.com/', 'context': {'client_region': 'aws-global', 'client_config': <botocore.config.Config object at 0x000001AE97609100>, 'has_streaming_input': False, 'auth_type': None}}
+2021-01-24 13:36:57,354 botocore.hooks - DEBUG:Event request-created.organizations.ListAccounts: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001AE97609070>>
+2021-01-24 13:36:57,354 botocore.hooks - DEBUG:Event choose-signer.organizations.ListAccounts: calling handler <function set_operation_specific_signer at 0x000001AE965C6790>
+2021-01-24 13:36:57,355 botocore.auth - DEBUG:Calculating signature using v4 auth.
+2021-01-24 13:36:57,356 botocore.auth - DEBUG:CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:organizations.us-east-1.amazonaws.com
+x-amz-date:20210124T080657Z
+x-amz-target:AWSOrganizationsV20161128.ListAccounts
+
+content-type;host;x-amz-date;x-amz-target
+3de0bdfce969da4418a62a4fd817097e9c44fbe56582877e1abd2e6c184a5cf0
+2021-01-24 13:36:57,356 botocore.auth - DEBUG:StringToSign:
+AWS4-HMAC-SHA256
+20210124T080657Z
+20210124/us-east-1/organizations/aws4_request
+fc058b8304dfe3d6792394d227b4bf407fb4855b784751e0938505b3fd3c9c33
+2021-01-24 13:36:57,357 botocore.auth - DEBUG:Signature:
+41a8750ddca6985e95c4635bc1f4a2e3ff19ac166ca04bdc0071d2b927e88db1
+2021-01-24 13:36:57,357 botocore.endpoint - DEBUG:Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://organizations.us-east-1.amazonaws.com/, headers={'X-Amz-Target': b'AWSOrganizationsV20161128.ListAccounts', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.16.14 Python/3.9.0 Windows/10 Botocore/1.19.14', 'X-Amz-Date': b'20210124T080657Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUWY2OTUPQR5KND6U/20210124/us-east-1/organizations/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-target, Signature=41a8750ddca6985e95c4635bc1f4a2e3ff19ac166ca04bdc0071d2b927e88db1', 'Content-Length': '749'}>
+2021-01-24 13:36:57,700 urllib3.connectionpool - DEBUG:https://organizations.us-east-1.amazonaws.com:443 "POST / HTTP/1.1" 200 3698
+2021-01-24 13:36:57,702 botocore.parsers - DEBUG:Response headers: {'x-amzn-RequestId': '2115848e-7bd9-4ec4-8964-226f554a32cc', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '3698', 'Date': 'Sun, 24 Jan 2021 08:06:57 GMT'}
+2021-01-24 13:36:57,703 botocore.parsers - DEBUG:Response body:
+b'{"Accounts":[{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/945239437978","Email":"pyt1@abcxyz.com","Id":"945239437978","JoinedMethod":"CREATED","JoinedTimestamp":1.605192247848E9,"Name":"pytSatya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/527835484298","Email":"dumy123@xya.com","Id":"527835484298","JoinedMethod":"CREATED","JoinedTimestamp":1.603900648274E9,"Name":"dummy1","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/210927249957","Email":"xyz123456@gmailx1.com","Id":"210927249957","JoinedMethod":"CREATED","JoinedTimestamp":1.60377445633E9,"Name":"xyz1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/169731329154","Email":"VDSS@xyz.com","Id":"169731329154","JoinedMethod":"CREATED","JoinedTimestamp":1.602994469132E9,"Name":"VDSS","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/068597922674","Email":"logging@xyz.com","Id":"068597922674","JoinedMethod":"CREATED","JoinedTimestamp":1.603121914113E9,"Name":"Logging","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/738750764630","Email":"log-archive@xyz.com","Id":"738750764630","JoinedMethod":"CREATED","JoinedTimestamp":1.602573340366E9,"Name":"Log archive","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/012680970011","Email":"q1234568@gmailx1456.com","Id":"012680970011","JoinedMethod":"CREATED","JoinedTimestamp":1.604241183044E9,"Name":"Sampleaccount2","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/705047059868","Email":"fakexyz1236@gmailx123.com","Id":"705047059868","JoinedMethod":"CREATED","JoinedTimestamp":1.603904088402E9,"Name":"fakedumy1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/387843785191","Email":"pyt1sleep@abcxyz.com","Id":"387843785191","JoinedMethod":"CREATED","JoinedTimestamp":1.605194351068E9,"Name":"pytSatyasleep","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/308042207821","Email":"Finalcustom@abcxyz.com","Id":"308042207821","JoinedMethod":"CREATED","JoinedTimestamp":1.604674979383E9,"Name":"FinalcustomSatya","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/323788643615","Email":"jobs2sam@gmail.com","Id":"323788643615","JoinedMethod":"INVITED","JoinedTimestamp":1.586056009935E9,"Name":"infra-dev","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/105553713263","Email":"Finalcustomsumit2@abcxyz.com","Id":"105553713263","JoinedMethod":"CREATED","JoinedTimestamp":1.604675029042E9,"Name":"FinalcustomSumit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/796580307834","Email":"xyz123456@gmailx123.com","Id":"796580307834","JoinedMethod":"CREATED","JoinedTimestamp":1.603900470077E9,"Name":"dumy1account","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/784725266810","Email":"8553947760xyz@abc.com","Id":"784725266810","JoinedMethod":"CREATED","JoinedTimestamp":1.60398369864E9,"Name":"testapi1","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/251202508777","Email":"Apicustomsumit2@abcxyz.com","Id":"251202508777","JoinedMethod":"CREATED","JoinedTimestamp":1.604754608032E9,"Name":"ApitestSumit","Status":"ACTIVE"},{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/715921394743","Email":"q1234567@gmailx123.com","Id":"715921394743","JoinedMethod":"CREATED","JoinedTimestamp":1.604241135288E9,"Name":"Sampleaccount1","Status":"ACTIVE"}]}'
+2021-01-24 13:36:57,706 botocore.hooks - DEBUG:Event needs-retry.organizations.ListAccounts: calling handler <botocore.retryhandler.RetryHandler object at 0x000001AE97609A60>
+2021-01-24 13:36:57,706 botocore.retryhandler - DEBUG:No retry needed.
+2021-01-24 13:36:57,707 updatedscript - INFO:List of Accounts : {
+    "pytSumit": "812140953942",
+    "abc1account": "316744330598",
+    "testapi2": "865615574130",
+    "VDMS": "959457434012",
+    "satyaaccount": "952838089727",
+    "Api1account": "249175382967",
+    "Api2account": "805607449710",
+    "Missionapp": "681744429061",
+    "Sathya R": "972530011371",
+    "Central": "932761296638",
+    "finalaccount6985": "312135302755",
+    "newuserdev01": "124366690439",
+    "pythonaccount": "640338191567",
+    "ApitestSatya": "505695001123",
+    "pytSumitsleep": "660588141457",
+    "VLG": "689020024752",
+    "checklastaccount": "759949070542",
+    "satya": "576029292242",
+    "Audit": "802926519859",
+    "fakedumy2account": "767321896527",
+    "pytSatya": "945239437978",
+    "dummy1": "527835484298",
+    "xyz1account": "210927249957",
+    "VDSS": "169731329154",
+    "Logging": "068597922674",
+    "Log archive": "738750764630",
+    "Sampleaccount2": "012680970011",
+    "fakedumy1account": "705047059868",
+    "pytSatyasleep": "387843785191",
+    "FinalcustomSatya": "308042207821",
+    "infra-dev": "323788643615",
+    "FinalcustomSumit": "105553713263",
+    "dumy1account": "796580307834",
+    "testapi1": "784725266810",
+    "ApitestSumit": "251202508777",
+    "Sampleaccount1": "715921394743"
+}
+2021-01-24 13:36:57,707 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:36:57] "[37mGET /listaccounts HTTP/1.1[0m" 200 -
+2021-01-24 13:39:51,094 werkzeug - INFO: * Detected change in 'c:\\Users\\Sathya R\\Desktop\\AWS project\\actualmain.py', reloading
+2021-01-24 13:39:51,238 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:40:33,642 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:41:20,916 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:47:01,529 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:47:01,638 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:47:02,227 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:47:02,328 werkzeug - WARNING: * Debugger is active!
+2021-01-24 13:47:02,334 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 13:47:02,350 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 13:47:05,609 updatedscript - INFO:Listing the roots of the AWS account
+2021-01-24 13:47:06,800 updatedscript - INFO:RootId: r-oblp
+2021-01-24 13:47:06,800 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:47:06] "[37mGET /listroot HTTP/1.1[0m" 200 -
+2021-01-24 13:47:41,239 script2 - INFO:Listing the roots of the AWS account
+2021-01-24 13:47:42,290 script2 - INFO:RootId: r-oblp
+2021-01-24 13:47:42,291 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:47:42] "[37mGET /scriptroot HTTP/1.1[0m" 200 -
+2021-01-24 13:49:28,773 script2 - INFO:Listing the roots of the AWS account
+2021-01-24 13:49:29,847 script2 - INFO:RootId: r-oblp
+2021-01-24 13:49:29,848 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:49:29] "[37mGET /scriptroot HTTP/1.1[0m" 200 -
+2021-01-24 13:50:04,007 werkzeug - INFO: * Detected change in 'c:\\Users\\Sathya R\\Desktop\\AWS project\\actualmain.py', reloading
+2021-01-24 13:50:04,084 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:51:11,209 werkzeug - INFO: * Restarting with stat
+2021-01-24 13:51:11,989 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 13:51:12,151 werkzeug - WARNING: * Debugger is active!
+2021-01-24 13:51:12,160 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 13:51:12,177 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 13:51:27,885 updatedscript - INFO:Listing all the SCP policies of the AWS account
+2021-01-24 13:51:29,545 updatedscript - INFO:SCP Policies: {
+    "FullAWSAccess": "p-FullAWSAccess",
+    "aws-guardrails-VFUhZd": "p-q2a02sf3",
+    "CentralAccountSCP": "p-5u9i5eak",
+    "flaskscp3test": "p-9njznm1p",
+    "Deny Lambda for Sathya Account": "p-jqsvu76h",
+    "check1scppolicy": "p-ek3zkp3k",
+    "vscodeguardrail": "p-ar2zgzq0",
+    "LoggingAccountSCP": "p-9zu7pf7q",
+    "updatecodescp": "p-yu185bwm",
+    "dummyscpcustom": "p-19pubvdo",
+    "guardrail1": "p-rhl1ep2e",
+    "guardcheck": "p-x9hvnjbe",
+    "aws-guardrails-JSnQmo": "p-ipoj0jae",
+    "guardcheckstring": "p-i3x8djjv",
+    "flaskscp2test": "p-iaew1ydr",
+    "flaskscp1test": "p-6nfnwt3c",
+    "aws-guardrails-WKptKO": "p-pn9eaoz0",
+    "Test_SCP": "p-cimw1sfi"
+}
+2021-01-24 13:51:29,546 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:51:29] "[37mGET /listscp HTTP/1.1[0m" 200 -

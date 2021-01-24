@@ -1,24 +1,26 @@
 from updatedscript import *
+from script2 import *
 from flask import Flask,jsonify,request
 import json
 import boto3
 import logging
+import logging.config
 
-
+logging.config.fileConfig('C:/Users/Sathya R/Desktop/AWS project/config.ini', disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+# logger.setLevel(logging.DEBUG)
 
-formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
+# formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
 
-file_handler = logging.FileHandler('logfile.log')
-file_handler.setLevel(logging.ERROR)
-file_handler.setFormatter(formatter)
+# file_handler = logging.FileHandler('logfile.log')
+# file_handler.setLevel(logging.ERROR)
+# file_handler.setFormatter(formatter)
 
-stream_handler = logging.StreamHandler()
-stream_handler.setFormatter(formatter)
+# stream_handler = logging.StreamHandler()
+# stream_handler.setFormatter(formatter)
 
-logger.addHandler(file_handler)
-logger.addHandler(stream_handler)
+# logger.addHandler(file_handler)
+# logger.addHandler(stream_handler)
 
 
 client = boto3.client('organizations')
@@ -28,6 +30,11 @@ app=Flask(__name__)
 @app.route("/listroot",methods=["GET"])
 def root():
   rootId=list_roots()
+  return rootId
+
+@app.route("/scriptroot",methods=["GET"])
+def scriptforroot():
+  rootId=scriptroot()
   return rootId
 
 @app.route("/createou",methods=["POST"])
