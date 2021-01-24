@@ -528,3 +528,29 @@ b'{"Accounts":[{"Arn":"arn:aws:organizations::323788643615:account/o-tdnkfh0fue/
     "Test_SCP": "p-cimw1sfi"
 }
 2021-01-24 13:51:29,546 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 13:51:29] "[37mGET /listscp HTTP/1.1[0m" 200 -
+2021-01-24 15:38:25,632 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 15:38:25,816 werkzeug - INFO: * Restarting with stat
+2021-01-24 15:38:26,361 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 15:38:26,451 werkzeug - WARNING: * Debugger is active!
+2021-01-24 15:38:26,457 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 15:38:26,470 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 15:38:44,068 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 15:38:44] "[31m[1mPOST /scriptroot HTTP/1.1[0m" 405 -
+2021-01-24 15:39:17,507 werkzeug - INFO: * Detected change in 'c:\\Users\\Sathya R\\Desktop\\AWS project\\actualmain.py', reloading
+2021-01-24 15:39:17,617 werkzeug - INFO: * Restarting with stat
+2021-01-24 15:39:18,336 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 15:39:18,440 werkzeug - WARNING: * Debugger is active!
+2021-01-24 15:39:18,446 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 15:39:18,461 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 15:39:26,168 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 15:39:26] "[37mPOST /scriptroot HTTP/1.1[0m" 200 -
+2021-01-24 15:39:45,533 script2 - INFO:Listing the roots of the AWS account
+2021-01-24 15:39:46,695 script2 - INFO:RootId: r-oblp
+2021-01-24 15:39:46,695 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 15:39:46] "[37mGET /scriptroot HTTP/1.1[0m" 200 -
+2021-01-24 15:41:08,079 werkzeug - INFO: * Detected change in 'c:\\Users\\Sathya R\\Desktop\\AWS project\\actualmain.py', reloading
+2021-01-24 15:41:08,149 werkzeug - INFO: * Restarting with stat
+2021-01-24 15:41:08,793 botocore.credentials - INFO:Found credentials in shared credentials file: ~/.aws/credentials
+2021-01-24 15:41:08,920 werkzeug - WARNING: * Debugger is active!
+2021-01-24 15:41:08,928 werkzeug - INFO: * Debugger PIN: 104-433-257
+2021-01-24 15:41:08,946 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-01-24 15:41:16,879 __main__ - ERROR:You have selected POST method, Try GET method
+NoneType: None
+2021-01-24 15:41:16,880 werkzeug - INFO:127.0.0.1 - - [24/Jan/2021 15:41:16] "[37mPOST /scriptroot HTTP/1.1[0m" 200 -

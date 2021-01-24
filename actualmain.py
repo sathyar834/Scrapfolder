@@ -32,10 +32,14 @@ def root():
   rootId=list_roots()
   return rootId
 
-@app.route("/scriptroot",methods=["GET"])
+@app.route("/scriptroot",methods=["GET","POST"])
 def scriptforroot():
-  rootId=scriptroot()
-  return rootId
+  if request.method == "GET":
+    rootId=scriptroot()
+    return rootId
+  elif request.method == "POST":
+    logger.exception("You have selected POST method, Try GET method")
+    return("You have selected POST method, Try GET method")
 
 @app.route("/createou",methods=["POST"])
 def create_ou():
